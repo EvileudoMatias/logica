@@ -4,7 +4,7 @@ let peso = Number(readline.question("qual seu peso? "));
 let altura = Number(readline.question("qual sua altura? "));
 let resultado = peso/(altura*altura);
 
-console.log('Seu imc:' + " "+ resultado.toFixed(2) + " ")
+console.log('Seu imc:' + " "+ resultado.toFixed(2))
 
 if (resultado <= 18){
     console.log('abaixo do peso')
